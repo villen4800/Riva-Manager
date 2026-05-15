@@ -65,24 +65,16 @@ Riva Manager is a high-fidelity, all-in-one business management solution designe
 ### 2. PythonAnywhere Deployment (Anytime Access)
 To host Riva Manager for 24/7 access from any device:
 
-1.  **download the zip and upload it to python anywhere server**: Open a Bash console on PythonAnywhere and run:
-    ```bash
-    git clone <your-repo-url>
-    cd ssb_v6
-    ```
-2.  **Create Virtual Environment**:
-    ```bash
-    mkvirtualenv --python=/usr/bin/python3.10 riva-venv
-    pip install -r requirements.txt
-    ```
-3.  **Configure Web App**:
+1.  **download the zip and upload it to python anywhere server**:
+
+2.  **Configure Web App**:
     -   Go to the **Web** tab on PythonAnywhere.
     -   Click **Add a new web app**.
     -   Select **Manual Configuration** -> **Python 3.10**.
     -   **Source Code**: `/home/<your-username>/ssb_v6`
     -   **Working Directory**: `/home/<your-username>/ssb_v6`
     -   **Virtualenv**: `/home/<your-username>/.virtualenvs/riva-venv`
-4.  **WSGI Configuration**:
+3.  **WSGI Configuration**:
     -   Click the **WSGI configuration file** link.
     -   Delete everything and paste:
         ```python
@@ -95,8 +87,6 @@ To host Riva Manager for 24/7 access from any device:
 
         from app import app as application
         ```
-5.  **Reload**: Go back to the Web tab and click **Reload**.
-6.  **Setup**: Visit `your-username.pythonanywhere.com/setup` to initialize your business.
+4.  **Reload**: Go back to the Web tab and click **Reload**.
+5.  **Setup**: Visit `your-username.pythonanywhere.com/setup` to initialize your business.
 
----
-*Created with ❤️ by Riva Manager Team.*
