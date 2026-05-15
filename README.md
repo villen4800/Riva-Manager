@@ -1,4 +1,6 @@
 # Riva Manager
+<img width="1774" height="887" alt="ChatGPT Image May 15, 2026, 12_18_30 PM" src="https://github.com/user-attachments/assets/7bcaa587-391c-434f-a4b0-64afb90df2e2" />
+
 ### Professional Business, Inventory & GST Management Suite
 
 Riva Manager is a high-fidelity, all-in-one business management solution designed for retail, service centers, and IT hubs. Built with a focus on keyboard-driven efficiency, real-time GST compliance, and robust staff administration.
