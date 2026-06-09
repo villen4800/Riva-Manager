@@ -72,7 +72,7 @@ To host Riva Manager for 24/7 access from any device:
 2.  **Configure Web App**:
     -   Go to the **Web** tab on PythonAnywhere.
     -   Click **Add a new web app**.
-    -   Select **Manual Configuration** -> **Python 3.13**.
+    -   Select **Manual Configuration** -> **Python 3.13, flask**.
     -   **select path to app**: `/home/<your-username>/app.py`
 3.  **Reload**: Go back to the Web tab and click **Reload**.
 4.  **Setup**: Visit `your-username.pythonanywhere.com/setup` to initialize your business.
